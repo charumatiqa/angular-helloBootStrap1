@@ -14,4 +14,4 @@ phases:
   post_build:
     commands:
       - echo "Updating files in the S3 bucket..."
-      - aws s3 sync dist/hello-bootstrap/ s3://hello-bootstrap1-s3 --delete
+      - aws s3 sync dist/hello-bootstrap/ s3://hello-bootstrap-s123 --delete
